@@ -5,13 +5,13 @@ import FooterDown from './components/Footer/FooterDown.vue';
 </script>
 
 <template>
-  <header class="lg:fixed  top-0 z-50 bg-white w-full ">
-    <Navbar show-img="true " />
+  <header class="fixed  top-0 z-50 bg-white w-full ">
+    <Navbar :isHamburger="true" />
   </header>
   <main>
     <RouterView />  
   </main>
-  <footer>
+  <footer class="bottom-0 ">
       <FooterDown/>
   </footer>
 

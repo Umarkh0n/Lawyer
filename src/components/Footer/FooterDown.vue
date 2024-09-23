@@ -18,7 +18,7 @@ function scrollToTop() {
             <button class="mx-auto block py-6 text-[#cca876;] text-xs" @click="scrollToTop">
                 – ↑ BACK TO TOP –
             </button>
-            <Navbar :showImg="false" class=" !justify-center !text-white custom-ul-class" :show-img="false" />
+            <Navbar :is-hamburger="false" :show-logo="false" class="!justify-center !text-white custom-ul-class" />
             <div class="lg:grid grid-cols-12 mt-16 items-center gap-6 ">
                 <div class="col-span-6 lg:flex items-center ">
                     <div class="min-w-[290px] mt-6 lg:mt-0">
